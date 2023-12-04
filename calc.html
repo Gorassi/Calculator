@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body class="'body">
+    <div class="wrapper">
+        <div class="window_1">
+            <button class="result_window"></button>
+        </div>
+        
+        <div class="buttons-top">
+                <button id="backSpace"> <span>CE</span> </button>
+                <button id="memory_in"> <span>M+</span> </button>
+                <button id="memory_out"> <span>M-</span> </button>
+                <button id="clear"> <span>C</span> </button>
+        </div>
+                
+        <div class="container">
+            
+            <div class="calculator">
+                
+                <div class="numbers">
+                    <button id="_1"> <span>1</span> </button>
+                    <button id="_2"> <span>2</span> </button>
+                    <button id="_3"> <span>3</span> </button>
+                    <button id="_4"> <span>4</span> </button>
+                    <button id="_5"> <span>5</span> </button>                    
+                    <button id="_6"> <span>6</span> </button>
+                    <button id="_7"> <span>7</span> </button>
+                    <button id="_8"> <span>8</span> </button>
+                    <button id="_9"> <span>9</span> </button>
+                    <button id="_sign">+/-</button>
+                    <button id="_0">0</button>
+                    <button id="point">,</button>
+                </div>
+               
+            </div>
+            <div class="aside-buttons">
+                <button class="aside" id="myplus"> <span>+</span> </button>
+                <button class="aside" id="_minus"> <span>-</span> </button>
+                <button class="aside" id="_multiply"> <span>*</span> </button>
+                <button class="aside" id="_divide"> <span>/</span> </button>
+            </div>
+            
+            
+        
+    </div>
+    <div class="button-bottom">
+        <button id="change_img"> <span>Change<br>
+            <text>background</text>
+         </span> </button>
+        <button id="equals"> <span>=</span> </button>
+    </div>
+    <div hidden>
+        <button id="temp_window" value = "start_1">Num 1</button>
+        <button id="action_window" value = "start_1">action</button>
+        <button id="num_2_window" value = "start_1">Num 2</button>
+    </div>
+    <script src="cals.js"></script>
+</body>
+</html>
